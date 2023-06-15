@@ -30,5 +30,5 @@ const textInput = document.querySelector('#text');
 const alertBtn = document.querySelector('#alert');
 
 alertBtn.addEventListener('click', e => {
-   alert(textInput.value) 
+   alert(textInput.value);
 });
